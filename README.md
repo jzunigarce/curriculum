@@ -1,0 +1,2 @@
+# curriculum
+Example of curriculum
