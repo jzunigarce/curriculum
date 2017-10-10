@@ -1,0 +1,150 @@
+body {
+	margin: 0;
+	background-color: #FFFFFF;
+	font-family: Roboto;
+}
+
+header {
+	background-color: #86c6b6;
+	padding: 10px 30px 10px;
+	height: 180px;
+}
+
+.right {
+	float: right;
+}
+
+.left {
+	float: left;
+}
+
+.row {
+	overflow: hidden;
+}
+
+.container {
+	width: 800px;
+	margin: auto;
+}
+
+/*.content {
+	background-image: url('../images/bg.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+}*/
+
+.profile{
+	position: relative;
+}
+
+.profile i{
+	font-size: 150px;
+	background-color: #FFFFFF;
+	border: 3px solid #000000;
+	padding: 30px 45px;
+	border-radius: 200px;
+	display: inline-block;
+	position: absolute;
+	top: 10px;
+	right: 0
+}
+
+.personal-information {
+	float: left;
+}
+
+.personal-information h1, .personal-information h3, .personal-information h2, .personal-information h3 a {
+	color: #ffffff;
+}
+
+.personal-information h1{
+	margin-bottom: 10px;
+}
+
+.personal-information h2 {
+	margin-bottom: 10px;
+	margin-top: 0;
+}
+
+.personal-information h3 {
+	font-size: 16px;
+	font-weight: normal;
+	margin: 0;
+}
+
+.target  {
+	color: #938b89;
+	font-style: italic;
+	width: 500px;
+}
+
+.academic, .complementary, .language {
+	text-align: right;
+	width: 50%;
+}
+
+.academic li, .complementary li, .language li {
+	list-style-type: none;
+}
+
+.title {
+	color:  #328574;
+}
+
+.title:nth-child(even) {
+	padding-left: 10px;
+}
+
+.title:nth-child(odd) {
+	padding-right: 10px;
+}
+
+.academic ul {
+	padding: 0;
+}
+
+.academic ul li, .language ul li, .proyectos ul li {
+	font-weight: 600;
+	color: #6d6c6c;
+	margin-bottom:  5px;
+}
+
+.academic ul li span {
+	display: inline-block;
+	padding: 5px 10px;
+	background-color: #68c6b6;
+	color: #ffffff;
+}
+
+.complementary ul li {
+	display: block;
+	background-color: #DCF1EC;
+	color: #5B947E;
+	margin-bottom:  5px;
+	padding: 5px;
+}
+
+.language ul li .fa-circle {
+	color: #5B947E;
+}
+
+.language ul li .fa-circle-o {
+	border-color: #5B947E;
+}
+
+.proyectos, .work {
+	width:  50%;
+	text-align: right
+}
+
+.proyectos li, .work li {
+	list-style-type: none;
+}
+
+ .duration {
+ 	display: block;
+ 	background-color: #68c6b6;
+ 	color: #ffffff;
+ 	padding: 5px  10px 5px 0;
+ 	margin-bottom: 10px;
+ }
